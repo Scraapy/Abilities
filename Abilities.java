@@ -61,7 +61,7 @@ public class Abilities
     if ((sender instanceof Player))
     {
       Player player = (Player)sender;
-      if (cmd.getName().equalsIgnoreCase("aSpeed"))
+      if (cmd.getName().equalsIgnoreCase("eSpeed"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -101,7 +101,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aStrength"))
+      if (cmd.getName().equalsIgnoreCase("eStrength"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -141,7 +141,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aJump"))
+      if (cmd.getName().equalsIgnoreCase("eJump"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -181,7 +181,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aAir"))
+      if (cmd.getName().equalsIgnoreCase("eAir"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -261,7 +261,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aHaste"))
+      if (cmd.getName().equalsIgnoreCase("eHaste"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -301,7 +301,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aResistance"))
+      if (cmd.getName().equalsIgnoreCase("eResistance"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -341,7 +341,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aRegeneration"))
+      if (cmd.getName().equalsIgnoreCase("eRegeneration"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -381,7 +381,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aInvisibility"))
+      if (cmd.getName().equalsIgnoreCase("eInvisibility"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -422,7 +422,7 @@ public class Abilities
         return true;
       }
       Location location;
-      if (cmd.getName().equalsIgnoreCase("aNightVision"))
+      if (cmd.getName().equalsIgnoreCase("eNightVision"))
       {
         if (this.map.containsKey(sender.getName()))
         {
@@ -462,7 +462,7 @@ public class Abilities
         this.map.put(sender.getName(), Long.valueOf(System.currentTimeMillis()));
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("aRemove"))
+      if (cmd.getName().equalsIgnoreCase("eRemove"))
       {
         sender.sendMessage(ChatColor.GRAY + "[" + ChatColor.RED + "Abilities" + ChatColor.GRAY + "]: " + ChatColor.GREEN + "All potion effects have been cleared!");
         Player s = (Player)sender;
@@ -471,7 +471,7 @@ public class Abilities
         }
         return true;
       }
-      if (cmd.getName().equalsIgnoreCase("abilreload"))
+      if (cmd.getName().equalsIgnoreCase("ebilreload"))
       {
         reloadConfig();
         saveConfig();
