@@ -23,13 +23,13 @@ Settings:
   InvTime: 1
   SeeTime: 1
 Messages:
-  Speed: '&7[&cAbilities&7]: &aYou now have a &b&lSPEED &aeffect activated! '
-  Jump: '&7[&cAbilities&7]: &aYou now have a &2&lJUMP &aeffect activated! '
-  Strength: '&7[&cAbilities&7]: &aYou now have a &c&lSTRENGTH &aeffect activated! '
-  Air: '&7[&cAbilities&7]: &aYou now have a &b&lBREATING &aeffect activated! '
-  FireResistance: '&7[&cAbilities&7]: &aYou now have a &4&lFIRE &aeffect activated! '
-  Dig: '&7[&cAbilities&7]: &aYou now have a &6&lHASTE &aeffect activated! '
-  Resistance: '&7[&cAbilities&7]: &aYou now have a &7&lRESISTANCE &aeffect activated! '
-  Regeneration: '&7[&cAbilities&7]: &aYou now have a &d&lREGENERATION &aeffect activated! '
-  Invisibility: '&7[&cAbilities&7]: &aYou now have a &f&lINVISIBILITY &aeffect activated! '
-  NightVision: '&7[&cAbilities&7]: &aYou now have a &a&lNIGHT VISION &aeffect activated! '
+  Speed: '&aYou now have a &b&lSPEED &aeffect activated! '
+  Jump: '&aYou now have a &2&lJUMP &aeffect activated! '
+  Strength: '&aYou now have a &c&lSTRENGTH &aeffect activated! '
+  Air: '&aYou now have a &b&lBREATING &aeffect activated! '
+  FireResistance: '&aYou now have a &4&lFIRE &aeffect activated! '
+  Dig: '&aYou now have a &6&lHASTE &aeffect activated! '
+  Resistance: '&aYou now have a &7&lRESISTANCE &aeffect activated! '
+  Regeneration: '&aYou now have a &d&lREGENERATION &aeffect activated! '
+  Invisibility: '&aYou now have a &f&lINVISIBILITY &aeffect activated! '
+  NightVision: '&aYou now have a &a&lNIGHT VISION &aeffect activated! '
